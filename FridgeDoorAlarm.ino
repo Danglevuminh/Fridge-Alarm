@@ -13,15 +13,15 @@ void loop() {
   int value = analogRead(A0);
   Serial.println("Analog Value :");
   Serial.println(value);  
-  delay(100);
+  delay(500);
   
-  /*
+ 
   //Looping LED
   digitalWrite(LEDpin, HIGH);
   delay(2000);
   digitalWrite(LEDpin, LOW);
   delay(2000);
-
+ /*
   //Looping buzzer
   tone(buzzer, 1000); 
   delay(1000);        
